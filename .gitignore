@@ -1,0 +1,78 @@
+# ===============================
+# 🚀 Miscellaneous
+# ===============================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# ===============================
+# 🛠 IDE & Editor Specific
+# ===============================
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/    # Uncomment if you want to exclude VS Code settings
+
+# ===============================
+# 🎯 Flutter/Dart/Pub related
+# ===============================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# ===============================
+# 🏗 Android & iOS Build Artifacts
+# ===============================
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/build
+/ios/Pods
+/ios/.symlinks
+/ios/build
+
+# ===============================
+# 🔐 Sensitive Information (Secrets & API Keys)
+# ===============================
+.env
+lib/core/config/firebase_options.dart
+backend/serviceAccountKey.json  # Google Cloud Service Account
+backend/main.py  # Prevent pushing OpenAI API keys
+
+# ===============================
+# 🔍 Symbolication & Debugging
+# ===============================
+app.*.symbols
+app.*.map.json
+
+# ===============================
+# 📝 Logs & Temporary Files
+# ===============================
+*.log
+*.tmp
+*.lock
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# ===============================
+# 💾 Windows & macOS Specific
+# ===============================
+Thumbs.db
+.DS_Store
+*.bak
+*.swp
+*.swo
